@@ -1,0 +1,31 @@
+{
+  "timestamp": "2026-07-25T18:44:53Z",
+  "repository": "djordje-kaspersky",
+  "branch": "japantokio",
+  "device_private_ip": "10.0.0.1",
+  "public_identities_and_projects": {
+    "emails": [
+      "djordje.gl.sa@gmail.com",
+      "djgl2014gldj@gmail.com",
+      "djordjeglavonjic25@yandex.ru"
+    ],
+    "google_cloud_project": {
+      "project_number": "460218354140",
+      "project_id": "polar-valor-491009-s1"
+    },
+    "yandex_auth_ip": {
+      "ip": "46.239.2.70",
+      "location": "Banja Luka"
+    },
+    "primary_public_ip_australia": {
+      "ip": "172.94.103.135",
+      "city": "Brisbane",
+      "region": "Queensland",
+      "country": "Australia",
+      "postal_code": "4000",
+      "timezone": "UTC +10:00",
+      "isp": "Secure Internet LLC",
+      "asn": "132372"
+    }
+  }
+}
