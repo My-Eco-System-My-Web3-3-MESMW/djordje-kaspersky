@@ -1,0 +1,22 @@
+{
+    "timestamp": "2026-07-25 13:25:24.492015",
+    "repository": "djordje-kaspersky",
+    "category": "western_security_model",
+    "details": {
+        "region": "USA_and_EU",
+        "characteristics": [
+            "Fokus na komercijalne ekosustave visoke vrijednosti",
+            "Stroge propise o privatnosti poput GDPR-a",
+            "Integracija s cloud rješenjima AWS, Azure, Google Cloud"
+        ],
+        "key_players": [
+            "Microsoft",
+            "CrowdStrike",
+            "Palo Alto Networks",
+            "Cloudflare",
+            "Fortinet",
+            "Bitdefender",
+            "ESET"
+        ]
+    }
+}
