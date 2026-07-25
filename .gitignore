@@ -1,0 +1,7 @@
+# Osetljivi bezbednosni i killswitch fajlovi (drže se lokalno na 10.0.0.1)
+remote_killswitch_sync.sh
+security_auth_master.json
+auth_configs/
+security_configs/
+*.key
+*.pem
