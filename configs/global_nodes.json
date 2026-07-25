@@ -1,0 +1,16 @@
+{
+    "USA_EU": {
+        "netbird_api": "",
+        "headscale_api": ""
+    },
+    "ASIA_ME": {
+        "amnezia_config": "",
+        "iran_proxy": ""
+    },
+    "RU": {
+        "xtls_reality": ""
+    },
+    "AFRICA_AUS": {
+        "local_gateway": ""
+    }
+}
