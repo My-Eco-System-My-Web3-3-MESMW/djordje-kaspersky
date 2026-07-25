@@ -1,0 +1,17 @@
+{
+    "timestamp": "2026-07-25 13:17:54.211395",
+    "repository": "djordje-kaspersky",
+    "category": "open_source_and_api_keys",
+    "security_tools": {
+        "Secret_Detection": [
+            "Gitleaks",
+            "Trivy",
+            "Checkov"
+        ],
+        "SIEM_Monitoring": [
+            "Wazuh",
+            "OpenSearch",
+            "Elastic Security"
+        ]
+    }
+}
