@@ -1,0 +1,23 @@
+{
+  "device_info": {
+    "device_name": "Samsung Galaxy A32",
+    "model": "SM-A325F/DS",
+    "serial_number": "RF8RB0Z6LZY",
+    "imei_slot_1": "353100566808243",
+    "imei_slot_2": "356059346808245",
+    "private_ip": "10.0.0.1"
+  },
+  "authorized_identities": {
+    "google_accounts": [
+      "djordje.gl.sa@gmail.com",
+      "djgl2014gldj@gmail.com"
+    ],
+    "yandex_account": "djordjeglavonjic25@yandex.ru",
+    "github_user": "djordjeglavonjic25"
+  },
+  "security_protocol": {
+    "status": "ARMED",
+    "action_on_unauthorized_device": "TRIGGER_FACTORY_RESET",
+    "description": "Ukoliko se detektuje neautorizovani uređaj ili promena hardverskog potpisa van definisanih IP i naložnih parametara, pokreće se automatsko brisanje podataka i vraćanje na fabrička podešavanja."
+  }
+}

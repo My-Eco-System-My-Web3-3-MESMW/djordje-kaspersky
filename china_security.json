@@ -1,0 +1,18 @@
+{
+    "timestamp": "2026-07-25 13:44:19.776092",
+    "repository": "djordje-kaspersky",
+    "category": "china_security_model",
+    "details": {
+        "region": "China",
+        "characteristics": [
+            "Snažan naglasak na nacionalnu kibernetičku suverenost",
+            "Stroge zakone o sigurnosti podataka",
+            "Masovnu primjenu umjetne inteligencije u nadzoru"
+        ],
+        "key_players": [
+            "Qihoo 360",
+            "NSFOCUS",
+            "DeepBlue Technology / Venustech"
+        ]
+    }
+}

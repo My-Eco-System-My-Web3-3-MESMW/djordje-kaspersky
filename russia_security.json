@@ -1,0 +1,16 @@
+{
+    "timestamp": "2026-07-25 13:44:19.639601",
+    "repository": "djordje-kaspersky",
+    "category": "russia_security_model",
+    "details": {
+        "region": "Russia",
+        "characteristics": [
+            "Fokus na tehnološku neovisnost i importazameščenie zbog geopolitičkih okolnosti i sankcija"
+        ],
+        "key_players": [
+            "Kaspersky Lab",
+            "Positive Technologies",
+            "Dr.Web"
+        ]
+    }
+}

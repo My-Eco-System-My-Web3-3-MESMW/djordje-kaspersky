@@ -1,0 +1,16 @@
+{
+    "timestamp": "2026-07-25 13:44:19.911622",
+    "repository": "djordje-kaspersky",
+    "category": "australia_security_model",
+    "details": {
+        "region": "Australia",
+        "characteristics": [
+            "Visoko regulirano tržište usklađeno s Five Eyes obavještajnim standardima",
+            "Veliki naglasak na zaštitu rudarskog sektora, financija i vladinih struktura"
+        ],
+        "key_players": [
+            "CyberCX",
+            "Lokalni uredi globalnih divova Microsoft, CrowdStrike, Thales Australia koji blisko surađuju s ACSC"
+        ]
+    }
+}

@@ -1,0 +1,80 @@
+cd ~
+# Provera da li postoji direktorijum i pozicioniranje na odgovarajuću granu
+if [ -d "djordje-kaspersky" ]; then
+    cd djordje-kaspersky
+    git checkout japantokio || git checkout -b japantokio
+else
+    git clone https://github.com/djordjeglavonjic25/djordje-kaspersky.git
+    cd djordje-kaspersky
+    git checkout japantokio || git checkout -b japantokio
+fi
+
+# Kreiranje ili ažuriranje JSON fajla sa bezbednosnim podacima za Iran, APN-ovima i VPN/proxy resursima
+cat << 'EOF' > iran_security_manager.json
+{
+  "timestamp": "2026-07-25T17:10:04Z",
+  "repository": "djordje-kaspersky",
+  "branch": "japantokio",
+  "security_companies_iran": [
+    {
+      "name": "Afranet",
+      "country": "Iran",
+      "description": "Nude mrežnu infrastrukturu, bezbednosna rešenja i korporativne zaštitne sisteme.",
+      "url": "https://www.afranet.com"
+    },
+    {
+      "name": "Peygam / Iran Computer and Video Games Foundation (IRCG)",
+      "country": "Iran",
+      "description": "Institucije i organizacije koje vrše bezbednosne provere, analizu softvera i zaštitu nacionalnog internet prostora."
+    },
+    {
+      "name": "MCI i MTN Irancell (Bezbednosni sektori)",
+      "country": "Iran",
+      "description": "Mobilni operateri koji razvijaju sopstvene SOC (Security Operations Center) sisteme za zaštitu telekomunikacione mreže i pretplatnika."
+    }
+  ],
+  "iran_apn_settings": [
+    {
+      "carrier": "MTN Irancell",
+      "apn": "mtnirancell",
+      "mmsc": "http://mms",
+      "mms_proxy": "10.19.30.25",
+      "mms_port": "8080"
+    },
+    {
+      "carrier": "MCI (Mobile Company of Iran / Hamrah-e Avval)",
+      "apn": "mcinet",
+      "mmsc": "http://mms",
+      "mms_proxy": "192.168.194.204",
+      "mms_port": "8080"
+    },
+    {
+      "carrier": "Rightel",
+      "apn": "RighTel"
+    }
+  ],
+  "vpn_proxy_tools_iran": [
+    {
+      "name": "V2Ray / Xray",
+      "protocols": ["VMess", "VLESS", "Trojan"],
+      "description": "Trenutno najzastupljeniji metod za zaobilaženje cenzure i obfuskaciju saobraćaja."
+    },
+    {
+      "name": "Shadowsocks",
+      "description": "Kriptovani proksiji koji uspešno prolaze kroz DPI (Deep Packet Inspection) filtre."
+    },
+    {
+      "name": "Psiphon / Open-source circumvention alati",
+      "description": "Specijalni režimi maskiranja saobraćaja za rad u uslovima teške blokade mreže."
+    }
+  ]
+}
+EOF
+
+# Git konfiguracija i sinhronizacija izmena
+git config user.name "djordjeglavonjic25"
+git config user.email "236400041+djordjeglavonjic25@users.noreply.github.com"
+
+git add iran_security_manager.json
+git commit -m "Auto-sync: Dodata ažurirana iranska sigurnosna, APN i VPN/proxy konfiguracija"
+git push origin japantokio

@@ -1,0 +1,27 @@
+{
+    "OpenVPN": {
+        "type": "Site-to-Site / Access Server",
+        "api_endpoint": "https://api.openvpn.com/v1/",
+        "auth_method": "API Key / Token"
+    },
+    "Tailscale": {
+        "type": "Mesh VPN / Zero Trust",
+        "api_endpoint": "https://api.tailscale.com/api/v2/",
+        "auth_method": "OAuth / API Access Token"
+    },
+    "NetBird": {
+        "type": "Open-source Zero Trust Network",
+        "api_endpoint": "https://api.netbird.io/api/",
+        "auth_method": "Personal Access Token"
+    },
+    "Pritunl": {
+        "type": "Open-source Enterprise VPN",
+        "api_endpoint": "https://your-pritunl-server/órders",
+        "auth_method": "API Secret & Token"
+    },
+    "Cloudflare": {
+        "type": "Cloud Edge SASE / Zero Trust",
+        "api_endpoint": "https://api.cloudflare.com/client/v4/",
+        "auth_method": "Bearer Token"
+    }
+}

@@ -1,0 +1,70 @@
+{
+  "timestamp": "2026-07-25T17:20:09Z",
+  "repository": "djordje-kaspersky",
+  "branch": "japantokio",
+  "security_companies_israel": {
+    "civilian_sector": [
+      {
+        "name": "Check Point Software Technologies",
+        "description": "Pionir i globalni lider u mrežnoj bezbednosti i enterprise vatrozidima.",
+        "url": "https://www.checkpoint.com"
+      },
+      {
+        "name": "CyberArk",
+        "description": "Vodeća kompanija specijalizovana za zaštitu privilegovanog pristupa (PAM) i identiteta u korporativnim mrežama.",
+        "url": "https://www.cyberark.com"
+      },
+      {
+        "name": "Wiz",
+        "description": "Jedna od najbrže rastućih svetskih platformi za bezbednost i detekciju ranjivosti u cloud okruženjima.",
+        "url": "https://www.wiz.io"
+      },
+      {
+        "name": "Cato Networks",
+        "description": "Inovator u oblasti SASE (Secure Access Service Edge) mrežne bezbednosti i cloud-native VPN/WAN arhitektura.",
+        "url": "https://www.catonetworks.com"
+      }
+    ],
+    "defense_military_sector": [
+      {
+        "name": "Elbit Systems",
+        "description": "Najveća privatna odbrambena kompanija u Izraelu, fokusirana na vojne komunikacione sisteme (C4I), bespilotne letelice, elektronsko ratovanje i taktičku mrežnu bezbednost.",
+        "url": "https://www.elbitsystems.com"
+      },
+      {
+        "name": "Israel Aerospace Industries (IAI)",
+        "description": "Državni gigant zadužen za vazduhoplovstvo, napredne radarske sisteme, satelitsku inteligenciju i sajber-odbrambenu infrastrukturu za vojsku.",
+        "url": "https://www.iai.co.il"
+      },
+      {
+        "name": "Rafael Advanced Defense Systems",
+        "description": "Državna kompanija koja razvija visokotehnološke odbrambene sisteme, uključujući i sisteme za šifrovanu vojnu komunikaciju i elektronsku zaštitu.",
+        "url": "https://www.rafael.co.il"
+      }
+    ]
+  },
+  "israel_apn_settings": [
+    {
+      "carrier": "Cellcom",
+      "apn": "SPHONE"
+    },
+    {
+      "carrier": "Pelephone",
+      "apn": "internet.pelephone.net.il",
+      "username": "pcl@3g",
+      "password": "pcl"
+    },
+    {
+      "carrier": "Partner",
+      "apn": "uinternet"
+    }
+  ],
+  "vpn_and_tactical_access_israel": {
+    "civilian_vpn": [
+      "NordVPN",
+      "ExpressVPN",
+      "ProtonVPN"
+    ],
+    "military_defense_access": "Izraelske odbrambene snage (IDF) koriste odvojene, potpuno izolovane šifrovane vojne telekomunikacione mreže i rešenja poput Elbit E-LynX radio sistema sa kvantno-otpornom enkripcijom."
+  }
+}
